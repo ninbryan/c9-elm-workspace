@@ -18,6 +18,7 @@ Approve the plan by entering 'y'
 #### Install HTML Package
 ```
 elm package install elm-lang/html -y
+
 ```
 
 #### Run Server [Elm Reactor](https://github.com/elm-lang/elm-reactor)
