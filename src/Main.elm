@@ -1,11 +1,19 @@
 -- import Html to mess with Html
-import Html exposing (..) -- exposing everything
+import Html exposing (h1, div, span, text) -- exposing certain elements
 
 -- import attributes to mess with Html Attributes
-import Html.Attributes exposing (..) -- exposing everything
+import Html.Attributes exposing (..) -- exposing every html attribute
+
+hello : String -> String
+hello subject = 
+  "hello " ++ subject
 
 {-
-  main exposing what we want elm to show
+main exposing what we want elm to show
 -}
-main = 
-  span [class "greet"] [text "hello world"]
+main =
+  div []
+  [ h1 [ class "greet" ] [ text (hello "world") ]
+  , span [] [ text "by elm" ]
+  ]
+  
