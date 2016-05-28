@@ -72,6 +72,8 @@ Toggle "Preview Running Apps:" to be active
 
 Set "When Saving Reload Preview:" to "Always"
 
+![previewer](assets/previewer-reload.png)
+
 
 #### Compiling elm
 ```
